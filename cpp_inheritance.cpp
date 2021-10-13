@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 class Vehicle {
   public:
     int kecepatan;
@@ -13,7 +17,7 @@ class Vehicle {
     void stop() {
       cout << "kendaraan berhenti...";
     }
-}
+};
 
 class Truck : public Vehicle {
   public:
@@ -28,7 +32,7 @@ class Truck : public Vehicle {
     void masukkanMuatan() {
       cout << "memasukkan muatan...";
     }
-}
+};
 
 class Car : public Vehicle {
   public:
@@ -43,4 +47,4 @@ class Car : public Vehicle {
     void nyalakanLampu() {
       cout << "menyalakan lampu...";
     }
-}
+};
