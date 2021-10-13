@@ -1,0 +1,1 @@
+g++ <cpp_file> -l <static_lib_file> -o <output>
